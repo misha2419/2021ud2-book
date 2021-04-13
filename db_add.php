@@ -85,26 +85,7 @@ $conn = null;
             </div>
             <div class="mb-3">
                 <label for="intro" class="form-label">簡介</label>
-                <textarea class="form-control" id="intro" name="intro" cols="80" rows="10"></textarea>
-            </div>
-
-            <div class="form-floating">
-              <select class="form-select" id="floatingSelect" name="floatingSelect" aria-label="Floating label select example">
-                <option selected>-打開選單-</option>
-                <option value="1">懸疑</option>
-                <option value="2">愛情</option>
-                <option value="3">恐怖</option>
-                <option value="4">科幻</option>
-                <option value="5">其他</option>
-              </select>
-              <label for="floatingSelect">書本種類</label>
-            </div>
-
-            <div class="mb-3"></div>
-
-            <div class="mb-3">
-                <label for="exampleColorInput" class="form-label">顏色</label>
-                <input type="color" class="form-control form-control-color" id="exampleColorInput" name="color" value="#563d7c" title="Choose your color">
+                <textarea class="form-control ckeditor" id="intro" name="intro" cols="80" rows="10"></textarea>
             </div>
             
             <div class="mb-3">
